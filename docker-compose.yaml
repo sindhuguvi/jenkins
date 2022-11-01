@@ -1,8 +1,9 @@
-version:'3.1'
+version: '3.9'
+  
 services:
-  app 1:
-    images: demo:V1
-    container name :app 1
+  nginx:
+    image: demo:V1
+    container_name: demo
   ports :
     - "80:80"
 
