@@ -4,6 +4,7 @@ services:
   nginx:
     image: demo:V1
     container_name: demo
+    restart: always
   ports :
     - "80:80"
 
